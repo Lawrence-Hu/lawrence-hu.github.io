@@ -18,29 +18,15 @@
   }
 
   .category-list-item-list-count{
-    color: $grey;
-    &:before {
-      display: inline;
-      content: " ("
-    }
-    &:after {
-      display: inline;
-      content: ") "
-    }
+    color: grey;
+    margin-left:10px
   }
 
   .category-list-item { margin: -6  px 10px; }
 
   .category-list-count {
-    color: $grey;
-    &:before {
-      display: inline;
-      content: " ("
-    }
-    &:after {
-      display: inline;
-      content: ") "
-    }
+    color: grey;
+    margin-left:10px
   }
 
   .category-list-child { padding-left: 10px; }.livere{
