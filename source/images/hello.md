@@ -32,6 +32,3 @@ class HelloWorld{
 **关于Hello World **
 
 我时常在想，为啥很多编程语言为什么都以`Hello World`开始，或者说它有什么意义？或许这句话对我们的生活一无所用，但至少可以给初学者以最大的信心——既然你可以用程序让电脑说出`Hello World` ，那你就可以用它来做你想要的事情，或许，除此之外，`Hello World`是向这个新的世界打招呼，希望能和它好好做朋友！可能也是程序员或者是it业界朋友一生的朋友吧！说以让我们一起说出那句最熟悉的问候**Hello World !**
-<span id="busuanzi_container_page_pv">
-  本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-</span>

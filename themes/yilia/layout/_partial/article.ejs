@@ -58,7 +58,9 @@
           <a class="article-tag-list-link color3">置顶</a>
         </div>
       <% } %>
+
       <%- partial('post/tag') %>
+
       <%- partial('post/category') %>
       <% if (index && theme.show_all_link){ %>
         <p class="article-more-link">
@@ -72,6 +74,14 @@
       <div class="clearfix"></div>
     </div>
   </div>
+    <!--统计数量-->
+ <% if (!index){ %>
+    <span id="busuanzi_container_page_pv" style="margin-left:85%">
+      本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+    </span>
+  <% } %>
+   
+
     <!--评论 -->
         <% if (!index && theme.livere.enable && post.comments){ %>
         <%- partial('post/livere', {
